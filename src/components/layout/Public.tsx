@@ -4,7 +4,9 @@ const navigation = [
   { name: 'Home', path: '/' },
   { name: 'About Us', path: '/about' },
   { name: 'Counter', path: '/counter' },
-  { name: 'From', path: '/from' }
+  { name: 'From', path: '/from' },
+  { name: 'API', path: '/fetch-data' }
+
 ]
 
 export default function Public() {

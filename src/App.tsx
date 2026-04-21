@@ -5,6 +5,7 @@ import About from './pages/About/About';
 import Counter from './pages/Counter';
 import Public from './components/layout/Public';
 import From from './pages/From';
+import Api from './pages/Api';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/from" element={<From />} />
+          <Route path="/fetch-data" element={<Api />} />
         </Route>
       </Routes>
     </BrowserRouter>
